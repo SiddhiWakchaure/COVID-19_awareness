@@ -1,0 +1,126 @@
+
+
+
+
+body{background-color: rgba(240,255,255,0.6)}
+
+*{box-sizing:border-box;}
+
+
+
+
+
+
+       /*nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;color:white;
+}
+
+li {color:white;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+li a:link, a:visited, a:hover, a:active{color:white;}
+
+
+
+
+
+
+
+
+       /*spreading*/
+
+.spread div:first-child{font-weight:bold;
+font-size:30px;
+margin:20px 20px 20px 0px;}
+
+.spread img{display:block;
+outline:3px solid black;
+margin:35px;
+margin-left:0px;}
+ 
+.spread div:nth-child(3){font-size:20px;
+font-weight:bold;
+background-color:lightblue;
+padding:20px;}
+
+
+
+
+
+       /*preventive measures*/
+
+.prevention div{font-weight:bold;
+font-size:30px;
+margin-top:150px;}
+
+.prevention img{margin-top:35px;
+outline:3px solid black;}
+  
+    
+
+
+     /*way*/
+.way div:first-child{margin-top:50px;
+font-size:25px;
+font-weight:bold;}
+ 
+.way img{margin-bottom:35px;
+margin-top:35px;
+outline:3px solid black;}
+
+.way div:nth-child(3){font-size:20px;
+font-weight:bold;
+background-color:lightblue;
+padding:20px;}
+
+.way span{color:white;
+background-color:black;
+padding:10px;
+border:3px solid red;
+animation:way 1s linear 0s infinite normal;}
+
+@keyframes way{
+from {border:3px solid red;}
+to   {border:3px solid Aqua;}
+to   {border:3px solid yellow;}
+to   {border:3px solid MediumBlue;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
