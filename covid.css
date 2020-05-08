@@ -263,11 +263,11 @@ transition:transform 1s linear 0s;}
 
 footer{position:absolute;
 top:2700px;
-width:99%
+width:99%;
 }
 footer div{font-size:20px;
 font-weight:bold;
-background-color:pink;}
+text-align:center;}
 
 
 
